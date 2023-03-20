@@ -1,17 +1,51 @@
-# Note Taker Starter Code
+# Grab Ya Notes
 
-# Acceptance Criteria 
+## Description
 
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a Save icon appears in the navigation at the top of the page
-WHEN I click on the Save icon
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column
-WHEN I click on the Write icon in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+The motivation for this project is to create a simple app that users can take and save notes while staying organized and on track with their tasks. This application is a good practice for using Express.js and using JSON database to pull multiple files. 
+
+## Table of Content
+
+
+- [Installation](#installtion)
+- [Usage](#usage)
+- [Links](#links)
+- [Credits](#credits)
+
+
+
+
+## Installtion
+
+<li> First, create a repository on Github and clone it to a local folder.
+<li> Then, locate the appropriate cloned files and open it in VS code.
+<li> Install the uuid package and Express using npm commands.
+<li> Once all necessary packages are installed, you can start working on routes and necessary files.
+<li> When finished writing codes, open Terminal again and run "npm start" to see if your application is functioning in localhost PORT. 
+<li> Make sure to follow gitflow in order to save and upload all changes.
+<li> Install Heroku CLI and use command "git push heroku main" to push all changes and deploys application to Heroku.
+
+## Usage
+
+<li> On the main page, users can press the "+" to add a new note
+<li> When entering a new note, users are required to put in a Title and notes on the second line
+<li> After saving their notes, users can access them again in the left hand column
+
+## Links 
+
+<li> Github Repository
+
+https://github.com/nathantr97/Grab-Ya-Notes
+
+<li> Application link 
+
+https://grab-ya-notes.herokuapp.com/notes
+
+## Credits
+
+<li> Classmates
+
+<li> Tutors
+
+<li> askBCS Student Support
+
